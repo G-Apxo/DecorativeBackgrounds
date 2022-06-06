@@ -1,6 +1,6 @@
 .demo-3 {
 	--color-text: #fff;
-	--color-bg: #A9E7DA;
+	--color-bg: #000;
 	--color-link: #523bdc;
 	--color-link-hover: #fff;
 	--color-title: #fff;
@@ -9,14 +9,17 @@
 .content__title {
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: -0.025em;
-	font-size: 7vw;
+	font-size: 52px;
+	font-weight: 800;
+	color: #FFFFFF;
+	backdrop-filter: blur(40px);
 	color: var(--color-title);
 	line-height: 1;
 	margin: 0;
 	position: relative;
 }
 
-.content__title::before,
+/* .content__title::before,
 .content__title::after {
 	content: '';
 	position: absolute;
@@ -25,7 +28,7 @@
 	background: url(../img/dot.png);
 	background-size: 25px;
 	opacity: 0.4;
-}
+} */
 
 .content__title::before {
 	top: 120%;
